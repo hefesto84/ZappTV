@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_rate_title_step_1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/btnRateLike"
+                android:background="@drawable/button_rate"
+                android:layout_marginTop="16dp"
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rate_button_like_step_1" />
+
+            <Button
+                android:id="@+id/btnRateImprove"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_improve" 
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rate_button_improve_step_2" />
+
+    
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnRateClose"
+     
+            android:layout_weight="0.6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordered_background_rate"
+            android:padding="10dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/app_rate_close" />
+		<Button
+            android:id="@+id/btnRateDontAsk"
+            
+            android:layout_weight="0.4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/bordered_background_rate"
+            android:padding="10dp"
+            android:text="@string/app_rate_dontask" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- 880000 -->

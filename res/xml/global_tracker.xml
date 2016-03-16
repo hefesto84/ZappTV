@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>
+  <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+ 
+    <!-- The screen names that will appear in reports -->
+    <screenName name="es.ubiqua.zapptv.ui.AboutFragment">
+        ZappTV Acerca
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.ChannelDetailListFragment">
+        ZappTV DetalleCanal
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.ChannelListFragment">
+        ZappTV ListadoCanales
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.FavouritesListFragment">
+        ZappTV ListadoFavoritos
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.MostRatedListFragment">
+        ZappTV ListadoMasVotados
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.MostRatedListFragment">
+        ZappTV ListadoMasVistos
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.MostRatedListFragment">
+        ZappTV DetallePrograma
+    </screenName>
+    <screenName name="es.ubiqua.zapptv.ui.MostRatedListFragment">
+        ZappTV ListadoAhora
+    </screenName>
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-41604199-6</string>
+</resources>

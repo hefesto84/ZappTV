@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgRate"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rate_app_contento" />
+
+        <TextView
+            android:id="@+id/txtRateTitle"
+            android:layout_marginTop="16dp"
+            android:textSize="22sp"
+            android:textColor="@color/blue_zapptv"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_rate_title_step_2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtRateSubtitle"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_rate_subtitle_step_2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/btnRateImprove"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_improve" 
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rate_button_improve_step_2" />
+
+    
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRateClose"
+        android:padding="10dp"
+        android:background="@drawable/bordered_background_rate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:text="@string/app_rate_close" />
+
+</RelativeLayout>
+<!-- 880000 -->

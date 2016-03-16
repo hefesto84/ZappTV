@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" >
+    <ListView 
+        android:id="@+id/lstMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:choiceMode="singleChoice"
+    android:divider="#5b5b5b"
+    android:layout_weight="0.9"
+    android:dividerHeight="1px"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/txtScoreCaption"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_score"
+        android:textAppearance="@style/ZappTVDetailCaptionHeader" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+	    style="@style/foodRatingBar"
+	    android:clickable="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="36dp" 
+	    android:progress="3"
+	    android:numStars="5"
+	    android:stepSize="1"/>
+
+</LinearLayout>

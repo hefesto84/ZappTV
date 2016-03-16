@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgChannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fdf" />
+
+    <FrameLayout
+        android:id="@+id/headerChannel"
+        android:layout_below="@id/imgChannel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtChannelName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            
+            style="@style/ZappTVSectionHeader"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </FrameLayout>
+    
+    <ListView
+        android:id="@+id/lstListPrograms"
+        android:layout_below="@id/headerChannel"
+        android:layout_marginTop="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:background="#FFFFFF"
+	    android:choiceMode="singleChoice"
+	    android:divider="#FFFFFF"
+	    android:dividerHeight="1px" />
+	
+</RelativeLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-4907134462579363/5810449767</string>
+    <string name="app_gcm_projectid">848997679041</string>
+	<string name="facebook_app_id">798951823477364</string>
+	<string name="exit_dialog_title">Salir de ZappTV</string>
+	<string name="exit_dialog_subtitle">¿Desea abandonar la aplicación?</string>
+	<string name="exit_dialog_option_yes">Si</string>
+	<string name="exit_dialog_option_no">No</string>
+    <string name="app_name">ZappTV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_rate_dontask">No preguntar más</string>
+    <string name="app_rate_button_send_step_3">Enviar sugerencias</string>
+    <string name="app_rate_title_step_3">Nos encantaria saber tu opinión</string>
+    <string name="app_rate_subtitle_step_3">¿Cómo podemos mejorarla?</string>
+    <string name="app_rate_button_rate_step_2">Valorar</string>
+    <string name="app_rate_title_step_2">¡Muchas gracias!</string>
+    <string name="app_rate_subtitle_step_2">¿Nos ayudas con tu valoración?</string>
+    <string name="app_rate_close">Cerrar</string>
+   	<string name="app_rate_title_step_1">¿Te ha gustado nuestra App?</string>
+   	<string name="app_rate_button_like_step_1">¡Me gusta!</string>
+   	<string name="app_rate_button_improve_step_2">Necesita mejorar</string>
+    <string name="app_ga_action_view">Visualizar</string>
+    <string name="app_ga_action_error">Error</string>
+    <string name="app_ga_action_checkin">Checkin</string>
+    <string name="app_ga_action_alarm">Añadida Alarma</string>
+    <string name="app_ga_action_favourite">Añadido Favorito</string>
+    <string name="app_ga_action_share">Compartido</string>
+    <string name="app_ga_action_click">Click</string>
+    <string name="app_ga_rightnow">Ahora</string>
+    <string name="app_ga_scheduler">Parrilla</string>
+    <string name="app_ga_channels">Canales</string>
+    <string name="app_ga_favourites">Favoritos</string>
+    <string name="app_ga_alarms">Alarmas</string>
+    <string name="app_ga_mostviewed">Mas Vistos</string>
+    <string name="app_ga_mostrated">Mas Votados</string>
+    <string name="app_ga_addchannels">Configuracion</string>
+    <string name="app_ga_about">Acerca</string>
+    <string name="app_ga_discoveryapps">DiscoveryApps</string>
+    <string name="app_ga_channeldetail">Detalle Canal</string>
+    <string name="app_ga_programdetail">Detalle Programa</string>
+    <string name="app_alert_error_title">Problemas de conexión</string>
+    <string name="app_alert_error_subtitle">Se ha producido un error de conexión. Pruébalo más tarde por favor.</string>
+    <string name="app_alert_error_ok">OK</string>
+    <string name="app_online">Ver Online</string>
+    <string name="app_updating">Actualizando</string>
+    <string name="app_locale_xx"></string>
+    <string name="app_locale_es">Castellano</string>
+    <string name="app_locale_ca">Català</string>
+    <string name="app_locale_gl">Galego</string>
+    <string name="app_locale_eu">Euskera</string>
+    <string name="app_locale_en">English</string>
+    <string name="app_description">Descripción</string>
+    <string name="app_alarm_setted">Alarma Añadida</string>
+    <string name="app_alarm">Alarma</string>
+    <string name="app_favourites">Favorito</string>
+    <string name="app_check">Check In</string>
+    <string name="app_share">Compartir</string>
+    <string name="app_title">Título</string>
+    <string name="app_stop">Final</string>
+    <string name="app_start">Inicio</string>
+    <string name="app_score">Puntúalo</string>
+    <string name="app_language">Idioma</string>
+    <string name="app_category">Categoría</string>
+    <string name="app_classification">Clasificación</string>
+    <string name="app_actors">Actores</string>
+    <string name="app_directors">Directores</string>
+    <string name="app_guests">Invitados</string>
+    <string name="app_presenters">Presentadores</string>
+    <string name="app_cant_share">No se puede compartir en este instante.</string>
+    <string name="app_notification">ZappTV: Emisión</string>
+    <string name="app_share_with">Compartir con</string>
+    <string name="app_search_channels">Buscar canales</string>
+    <string name="app_search_programs">Buscar programas</string>
+    <string name="app_path_scheduler">file:///data/data/es.ubiqua.zapptv/files/scheduler.html</string>
+    <string name="app_schedule_title">Cargando</string>
+    <string name="app_schedule_subtitle">Generando horario</string>
+    <string name="app_recommended_title">Cargando</string>
+    <string name="app_recommended_subtitle">Cargando apps recomendadas</string>
+    <string name="app_download">Descargar</string>
+    <string name="app_alarms_undefined">No hay alarmas definidas.</string>
+    <string name="app_channels_undefined">No hay canales definidos.</string>
+    <string name="app_favourites_undefined">No hay favoritos definidos.</string>
+    <string name="app_error">Se ha producido un error.</string>
+    <string name="app_rated">Puntuación enviada.</string>
+    <string name="app_scheduled_alarm_deleted">Alarma eliminada.</string>
+    <string name="app_scheduled_alarm">Alarma programada.</string>
+    <string name="app_checkin">Check-in enviado.</string>
+    <string name="app_favourite_add">Añadido a favoritos.</string>
+    <string name="app_favourite_del">Eliminado de favoritos.</string>
+    <string name="app_subject_contact_mail">Contacto con Ubiqua</string>
+    <string name="app_content_contact_mail">Escriba aquí su mensaje</string>
+    <string name="app_email_contact_mail">info@ubiqua.es</string>
+	<string name="section_rightnow">ZappTV - Ahora</string>
+	<string name="section_schedule">ZappTV - Parrilla TV</string>
+	<string name="section_channels">ZappTV - Canales</string>
+	<string name="section_favourites">ZappTV - Favoritos</string>
+	<string name="section_alarms">ZappTV - Alarmas</string>
+	<string name="section_mostviewed">ZappTV - Los + Vistos</string>
+	<string name="section_mostrated">ZappTV - Los + Votados</string>
+	<string name="section_configuration">ZappTV - Configuración</string>
+	<string name="section_recommended_app">App recomendada</string>
+	<string name="section_recommended_app_item">DiscoveryAppServices</string>
+	<string name="section_about">ZappTV - Sobre</string>
+    <string name="cat_about">about</string>
+    <string name="cat_channels">channels</string>
+    <string name="action_touch">touch</string>
+    <string name="app_sharing_post_title">ZappTV</string>
+    <string name="app_sharing_post_subtitle">Creando post</string>
+    
+    <string-array name="sections">
+        <item>Ahora</item>
+        <item>Parrilla TV</item>
+        <item>Canales</item>
+        <item>Favoritos</item>
+        <item>Alarmas</item>
+        <item>Los + Vistos</item>
+        <item>Los + Votados</item>
+        <item>Añadir Canales</item>
+        <item>Sobre</item>
+        <!--<item>App recomendada</item>-->
+        <item>DiscoveryAppServices</item>
+    </string-array>
+    <string-array name="channelsLang">
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>ca</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>gl</item>
+        <item>eu</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>eu</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+    </string-array>
+    <string-array name="channelsId">
+        <item>la1</item>
+        <item>la2</item>
+        <item>telecinco</item>
+        <item>antena3</item>
+        <item>cuatro</item>
+        <item>lasexta</item>
+        <item>tv3</item>
+        <item>x8tv</item>
+        <item>axn</item>
+        <item>teledeporte</item>
+        <item>telemadrid</item>
+        <item>canalsur</item>
+        <item>tvg</item>
+        <item>etb1</item>
+        <item>clan</item>
+        <item>disneychannel</item>
+        <item>mtvespana</item>
+        <item>ib3</item>
+        <item>aragontv</item>
+        <item>canalextremaduratv</item>
+        <item>cmt</item>
+        <item>x7rm</item>
+        <item>etb2</item>
+        <item>neox</item>
+        <item>nova</item>
+        <item>fdf</item>
+        <item>tvcanaria</item>
+        <item>goltv</item>
+        <item>cyl7</item>
+        <item>intereconomia</item>
+        <item>x24h</item>
+        <item>boing</item>
+        <item>divinity</item>
+        <item>x13tv</item>
+        <item>energy</item>
+        <item>discoverymax</item>
+        <item>paramountchannel</item>
+    </string-array>
+    <string-array name="channelsName">
+        <item>La 1</item>
+        <item>La 2</item>
+        <item>Telecinco</item>
+        <item>Antena 3</item>
+        <item>Cuatro</item>
+        <item>LaSexta</item>
+        <item>TV3</item>
+        <item>x8TV</item>
+        <item>AXN</item>
+        <item>Teledeporte</item>
+        <item>Telemadrid</item>
+        <item>Canal Sur</item>
+        <item>TVG</item>
+        <item>ETB1</item>
+        <item>Clan TV</item>
+        <item>Disney Channel</item>
+        <item>MTV España</item>
+        <item>IB3</item>
+        <item>Aragon TV</item>
+        <item>Canal Extremadura TV</item>
+        <item>CMT</item>
+        <item>x7RM</item>
+        <item>ETB2</item>
+        <item>NEOX</item>
+        <item>NOVA</item>
+        <item>FDF</item>
+        <item>TV Canarias</item>
+        <item>Gol TV</item>
+        <item>CyL7</item>
+        <item>Intereconomia</item>
+        <item>x24H</item>
+        <item>Boing</item>
+        <item>Divinity</item>
+        <item>x13TV</item>
+        <item>Energy</item>
+        <item>Discovery Max</item>
+        <item>Paramount Channel</item>
+    </string-array>
+
+    <string name="loremshort">Lorem Ipsum</string>
+    <string name="loremlong">Lorem Ipsum Sid Amet</string>
+    <string name="txtShare">Compartir</string>
+    <string name="txtCheckin">Check In</string>
+    <string name="txtFavourites">Favoritos</string>
+    <string name="txtAlarm">Alarma</string>
+    <string name="about1"><![CDATA[ Zapp TV es una aplicación desarrollada por <font color=\"#8eb1c8\"><b>Ubiqua</b></font> en colaboración con <font color=\"#8eb1c8\"><b>OneData</b></font>.]]></string>
+    <string name="about2">La información de la programación está sujeta a cambios.</string>
+    <string name="about3"><![CDATA[ Si quieres contactar con nosotros, dirígete a <font color=\"#8eb1c8\"><b>info@zapptv.es</b></font>.]]></string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="txtOrderBy">Ordena los canales por preferencia arrastrándolos.</string>
+
+     <!-- Fontello icons -->
+    <string name="fontello_logo">&#xe802;</string>
+    <string name="fontello_search">&#xe816;</string>
+    <string name="fontello_x_mark">&#xe81f;</string>
+    <string name="fontello_x_mark_masked">&#xe806;</string>
+    <string name="fontello_microfon">&#xe80f;</string>
+    <string name="fontello_user">&#xe81b;</string>
+    <string name="fontello_password">&#xe823;</string>
+    <string name="fontello_upload">&#xe81a;</string>
+    <string name="fontello_play">&#xe813;</string>
+    <string name="fontello_heart_empty">&#xe80b;</string>
+    <string name="fontello_heart_full">&#xe80a;</string>
+    <string name="fontello_drag_and_drop">&#xe821;</string>
+    
+</resources>

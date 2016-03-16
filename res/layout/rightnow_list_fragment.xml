@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="#FFF"
+    android:layout_height="fill_parent" >
+    <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/lstRightNow"
+        android:layout_below="@id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:divider="#e5e5e5"
+        android:dividerHeight="1px"
+        tools:context="es.ubiqua.zapptv.ui.RightNowListFragment" />
+
+</RelativeLayout>

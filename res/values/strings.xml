@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-4907134462579363/5810449767</string>
+    <string name="app_gcm_projectid">848997679041</string>
+	<string name="facebook_app_id">798951823477364</string>
+	<string name="exit_dialog_title">Exit ZappTV</string>
+	<string name="exit_dialog_subtitle">Do you want to quit ZappTV?</string>
+	<string name="exit_dialog_option_yes">Yes</string>
+	<string name="exit_dialog_option_no">No</string>
+    <string name="app_name">ZappTV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_rate_dontask">Don´t ask</string>
+    <string name="app_rate_button_send_step_3">Send suggestions</string>
+    <string name="app_rate_title_step_3">We would love know your opinion</string>
+    <string name="app_rate_subtitle_step_3">How can we improve the App?</string>
+    <string name="app_rate_button_rate_step_2">Rate</string>
+    <string name="app_rate_title_step_2">Thank You!</string>
+    <string name="app_rate_subtitle_step_2">Can you help us with your opinion?</string>
+    <string name="app_rate_close">Close</string>
+   	<string name="app_rate_title_step_1">Did you like our App?</string>
+   	<string name="app_rate_button_like_step_1">I Like It!</string>
+   	<string name="app_rate_button_improve_step_2">Needs to improve</string>
+    <string name="app_ga_action_view">Visualizar</string>
+    <string name="app_ga_action_error">Error</string>
+    <string name="app_ga_action_checkin">Checkin</string>
+    <string name="app_ga_action_alarm">Añadida Alarma</string>
+    <string name="app_ga_action_favourite">Añadido Favorito</string>
+    <string name="app_ga_action_share">Compartido</string>
+    <string name="app_ga_action_click">Click</string>
+    <string name="app_ga_rightnow">Ahora</string>
+    <string name="app_ga_scheduler">Parrilla</string>
+    <string name="app_ga_channels">Canales</string>
+    <string name="app_ga_favourites">Favoritos</string>
+    <string name="app_ga_alarms">Alarmas</string>
+    <string name="app_ga_mostviewed">Mas Vistos</string>
+    <string name="app_ga_mostrated">Mas Votados</string>
+    <string name="app_ga_addchannels">Configuracion</string>
+    <string name="app_ga_about">Acerca</string>
+    <string name="app_ga_discoveryapps">DiscoveryApps</string>
+    <string name="app_ga_channeldetail">Detalle Canal</string>
+    <string name="app_ga_programdetail">Detalle Programa</string>
+    <string name="app_alert_error_title">Connection Problems</string>
+    <string name="app_alert_error_subtitle">You are experimenting connection issues. Try again later.</string>
+    <string name="app_alert_error_ok">OK</string>
+    <string name="app_online">Watch Online</string>
+    <string name="app_updating">Updating</string>
+    <string name="app_locale_xx"></string>
+    <string name="app_locale_es">Castellano</string>
+    <string name="app_locale_ca">Català</string>
+    <string name="app_locale_gl">Galego</string>
+    <string name="app_locale_eu">Euskera</string>
+    <string name="app_locale_en">English</string>
+    <string name="app_description">Description</string>
+    <string name="app_alarm_setted">Reminder Added</string>
+    <string name="app_alarm">Alarm</string>
+    <string name="app_favourites">Favourite</string>
+    <string name="app_check">Check In</string>
+    <string name="app_share">Share</string>
+    <string name="app_title">Title</string>
+    <string name="app_stop">End</string>
+    <string name="app_start">Start</string>
+    <string name="app_score">Rate it</string>
+    <string name="app_language">Language</string>
+    <string name="app_category">Category</string>
+    <string name="app_classification">Classification</string>
+    <string name="app_actors">Actors</string>
+    <string name="app_directors">Directors</string>
+    <string name="app_guests">Guests</string>
+    <string name="app_presenters">Presenters</string>
+    <string name="app_cant_share">You cannot share in this moment.</string>
+    <string name="app_notification">ZappTV: Emission</string>
+    <string name="app_share_with">Share with</string>
+    <string name="app_search_channels">Search channels</string>
+    <string name="app_search_programs">Search programs</string>
+    <string name="app_path_scheduler">file:///data/data/es.ubiqua.zapptv/files/scheduler.html</string>
+    <string name="app_schedule_title">Loading</string>
+    <string name="app_schedule_subtitle">Generating scheduler</string>
+    <string name="app_recommended_title">Loading</string>
+    <string name="app_recommended_subtitle">Loading recommended apps</string>
+    <string name="app_download">Download</string>
+    <string name="app_alarms_undefined">No alarms defined.</string>
+    <string name="app_channels_undefined">No channels defined.</string>
+    <string name="app_favourites_undefined">No favourites defined.</string>
+    <string name="app_error">An error has occurred.</string>
+    <string name="app_rated">Score sent.</string>
+    <string name="app_scheduled_alarm_deleted">Alarm deleted.</string>
+    <string name="app_scheduled_alarm">Alarm programmed.</string>
+    <string name="app_checkin">Check-in sent.</string>
+    <string name="app_favourite_add">Added to favourites.</string>
+    <string name="app_favourite_del">Deleted from favourites.</string>
+    <string name="app_subject_contact_mail">Contact Ubiqua</string>
+    <string name="app_content_contact_mail">Type here your message</string>
+    <string name="app_email_contact_mail">info@ubiqua.es</string>
+	<string name="section_rightnow">ZappTV - Right Now</string>
+	<string name="section_schedule">ZappTV - TV Scheduler</string>
+	<string name="section_channels">ZappTV - Channels</string>
+	<string name="section_favourites">ZappTV - Favourites</string>
+	<string name="section_alarms">ZappTV - Alarms</string>
+	<string name="section_mostviewed">ZappTV - Most Viewed</string>
+	<string name="section_mostrated">ZappTV - Most Rated</string>
+	<string name="section_configuration">ZappTV - Configuration</string>
+	<string name="section_recommended_app">Recommended App</string>
+	<string name="section_recommended_app_item">DiscoveryAppServices</string>
+	<string name="section_about">ZappTV - About</string>
+    <string name="cat_about">about</string>
+    <string name="cat_channels">channels</string>
+    <string name="action_touch">touch</string>
+    <string name="app_sharing_post_title">ZappTV</string>
+    <string name="app_sharing_post_subtitle">Creating post</string>
+    
+    <string-array name="sections">
+        <item>Right Now</item>
+        <item>TV Scheduler</item>
+        <item>Channels</item>
+        <item>Favourites</item>
+        <item>Alarms</item>
+        <item>Most Viewed</item>
+        <item>Most Rated</item>
+        <item>Add Channels</item>
+        <item>About</item>
+        <!--<item>App recomendada</item>-->
+        <item>DiscoveryAppServices</item>
+    </string-array>
+    <string-array name="channelsLang">
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>ca</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>gl</item>
+        <item>eu</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>eu</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+        <item>es</item>
+    </string-array>
+    <string-array name="channelsId">
+        <item>la1</item>
+        <item>la2</item>
+        <item>telecinco</item>
+        <item>antena3</item>
+        <item>cuatro</item>
+        <item>lasexta</item>
+        <item>tv3</item>
+        <item>x8tv</item>
+        <item>axn</item>
+        <item>teledeporte</item>
+        <item>telemadrid</item>
+        <item>canalsur</item>
+        <item>tvg</item>
+        <item>etb1</item>
+        <item>clan</item>
+        <item>disneychannel</item>
+        <item>mtvespana</item>
+        <item>ib3</item>
+        <item>aragontv</item>
+        <item>canalextremaduratv</item>
+        <item>cmt</item>
+        <item>x7rm</item>
+        <item>etb2</item>
+        <item>neox</item>
+        <item>nova</item>
+        <item>fdf</item>
+        <item>tvcanaria</item>
+        <item>goltv</item>
+        <item>cyl7</item>
+        <item>intereconomia</item>
+        <item>x24h</item>
+        <item>boing</item>
+        <item>divinity</item>
+        <item>x13tv</item>
+        <item>energy</item>
+        <item>discoverymax</item>
+        <item>paramountchannel</item>
+    </string-array>
+    <string-array name="channelsName">
+        <item>La 1</item>
+        <item>La 2</item>
+        <item>Telecinco</item>
+        <item>Antena 3</item>
+        <item>Cuatro</item>
+        <item>LaSexta</item>
+        <item>TV3</item>
+        <item>x8TV</item>
+        <item>AXN</item>
+        <item>Teledeporte</item>
+        <item>Telemadrid</item>
+        <item>Canal Sur</item>
+        <item>TVG</item>
+        <item>ETB1</item>
+        <item>Clan TV</item>
+        <item>Disney Channel</item>
+        <item>MTV España</item>
+        <item>IB3</item>
+        <item>Aragon TV</item>
+        <item>Canal Extremadura TV</item>
+        <item>CMT</item>
+        <item>x7RM</item>
+        <item>ETB2</item>
+        <item>NEOX</item>
+        <item>NOVA</item>
+        <item>FDF</item>
+        <item>TV Canarias</item>
+        <item>Gol TV</item>
+        <item>CyL7</item>
+        <item>Intereconomia</item>
+        <item>x24H</item>
+        <item>Boing</item>
+        <item>Divinity</item>
+        <item>x13TV</item>
+        <item>Energy</item>
+        <item>Discovery Max</item>
+        <item>Paramount Channel</item>
+    </string-array>
+
+    <string name="loremshort">Lorem Ipsum</string>
+    <string name="loremlong">Lorem Ipsum Sid Amet</string>
+    <string name="txtShare">Share</string>
+    <string name="txtCheckin">Check In</string>
+    <string name="txtFavourites">Favourites</string>
+    <string name="txtAlarm">Alarm</string>
+    <string name="about1"><![CDATA[ Zapp TV is an application by <font color=\"#8eb1c8\"><b>Ubiqua</b></font> with <font color=\"#8eb1c8\"><b>OneData</b></font> collaboration.]]></string>
+    <string name="about2">TV Scheduler information may change without notice.</string>
+    <string name="about3"><![CDATA[ If you want to contact with us, please send an email to <font color=\"#8eb1c8\"><b>info@zapptv.es</b></font>.]]></string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="txtOrderBy">Drag and drop channels to order according to your preferences.</string>
+     <!-- Fontello icons -->
+    <string name="fontello_logo">&#xe802;</string>
+    <string name="fontello_search">&#xe816;</string>
+    <string name="fontello_x_mark">&#xe81f;</string>
+    <string name="fontello_x_mark_masked">&#xe806;</string>
+    <string name="fontello_microfon">&#xe80f;</string>
+    <string name="fontello_user">&#xe81b;</string>
+    <string name="fontello_password">&#xe823;</string>
+    <string name="fontello_upload">&#xe81a;</string>
+    <string name="fontello_play">&#xe813;</string>
+    <string name="fontello_heart_empty">&#xe80b;</string>
+    <string name="fontello_heart_full">&#xe80a;</string>
+    <string name="fontello_drag_and_drop">&#xe821;</string>
+    
+</resources>

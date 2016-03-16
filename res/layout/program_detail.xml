@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/ZappTVSectionHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp" 
+            >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                
+            <FrameLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#808080">
+
+	            <com.loopj.android.image.SmartImageView
+	                android:id="@+id/imgProgram"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:scaleType="centerCrop"
+	                android:layout_gravity="center"
+	                android:src="@drawable/zapptviconabout" />
+        	</FrameLayout>
+                
+                <include android:id="@+id/detailOptions" layout="@layout/detail_options" />
+                <include android:id="@+id/detailItemScore" layout="@layout/detail_item_score" />
+                <include android:id="@+id/detailItemTitle" layout="@layout/detail_item_title" />
+                <include android:id="@+id/detailItemDescr" layout="@layout/detail_item_description" />
+                <include android:id="@+id/detailItemCategory" layout="@layout/detail_item_category" />
+                <include android:id="@+id/detailItemClassification" layout="@layout/detail_item_classification" />
+                <include android:id="@+id/detailItemLanguage" layout="@layout/detail_item_language" />
+                
+                <include android:id="@+id/detailItemPresenters" layout="@layout/detail_item_presenters" />
+                <include android:id="@+id/detailItemGuests" layout="@layout/detail_item_guests" />
+                <include android:id="@+id/detailItemDirectors" layout="@layout/detail_item_directors" />
+                <include android:id="@+id/detailItemActors" layout="@layout/detail_item_actors" />
+                
+                <include android:id="@+id/detailItemStart" layout="@layout/detail_item_start" />
+                <include android:id="@+id/detailItemStop" layout="@layout/detail_item_stop" />
+            
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
